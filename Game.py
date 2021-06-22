@@ -1,10 +1,18 @@
-class Calculator():
-    def __init__(self,P,r,N):
-        self.P=P
-        self.r=r
-        self.N=N
+class User:
+    user=input()
     def __repr__(self):
-        print("Hello, please insert the principal amount of your loan, your given interest rate and the total number of monthly payments to be made.")
+        print("Hello, please insert the principal amount of your loan, the interest rate and the total number of monthly payments, in the following format (1,2,3)")
+
+
+
+
+
+
+class Calculator(User):
+    def __init__(self):
+        self.P=user[0]
+        self.r=user[1]
+        self.N=[user[2]]
     def calculate(self):
         try:
             monthly_payment=((self.r)*(self.P))/(1-(1+self.r)**(-self.N))
@@ -14,5 +22,7 @@ class Calculator():
 
         return round(monthly_payment,2)
     
+example=Calculator()
+print(example.calculate((200000,6,300)))
     
     
