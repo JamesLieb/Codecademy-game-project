@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Calculator():
     def __init__(self,P,r,N):
         self.P=P
@@ -16,3 +17,6 @@ class Calculator():
     
     
     
+=======
+
+>>>>>>> 7c1e60f49e8ff53a70763c7a3207c69860a7378a
