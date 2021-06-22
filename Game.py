@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Calculator():
     def __init__(self,P,r,N):
         self.P=P
@@ -12,11 +11,8 @@ class Calculator():
         except:
             ValueError
             print("Only use numbers for the input, and make sure to seperate the values by a comma")
-            
+
         return round(monthly_payment,2)
     
     
     
-=======
-
->>>>>>> 7c1e60f49e8ff53a70763c7a3207c69860a7378a
